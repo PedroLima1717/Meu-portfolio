@@ -1,0 +1,43 @@
+.arena {
+    width: 600px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+h3{
+    color: #8B0000;
+}
+a {
+    color:rgb(255, 0, 0)
+}
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul{
+    background-color: black;
+    padding: 15px;
+    border-radius: 30px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li  :hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+img:hover{
+    transform: rotate(360deg);
+    transition: transform 0.3s ease;
+}
